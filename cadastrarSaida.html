@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="cadSaida.js"defer></script>
+  <title>Cadastrar Saída</title>
+</head>
+
+<body>
+
+  <nav>
+    <a href="./index.html">Principal</a>
+    <a href="./cadastrarAluno.html">Cadastrar Aluno</a>
+    <a href="./cadastrarSaida.html">Cadastrar Saída</a>
+    <a href="./cadastrarProfessor.html">Cadastrar Professor</a>
+  </nav>
+
+
+  <div class="container">
+    <h1>Cadastrar</h1>
+    <h2>Saída</h2>
+    
+
+      <label for="dataSolicitacao">Selecione a data solicitada:</label>
+      <input type="date" id="dataSolicitacao" placeholder="Digite a data solicitada"><br>
+
+      <label for="horaSaida">Selecione a hora da Saída:</label>
+      <input type="time" id="horaSaida" placeholder="Digite a  hora da Saída"><br>
+
+      <label for="horaRetorno">Selecione a hora do Retorno:</label>
+      <input type="time" id="horaRetorno" placeholder="Digite a  hora da Saída"><br>
+
+      <label for="motivo"> Digite o motivo :</label>
+      <input type="text" id="motivo" placeholder="Digite o  motivo da Saída"><br>
+
+      <label for="localDestino"> Digite o destino:</label>
+      <input type="text" id="localDestino" placeholder="Digite o destino"><br>
+
+      <label for="status"> Digite o status:</label>
+      <input type="text" id="status" placeholder="Digite o status"><br>
+
+      <label for="nomeAluno"> Digite o nome do Aluno:</label>
+      <input type="text" id="nomeAluno" placeholder="Digite o nome aluno"><br>
+
+      <label for="nomeProfessor"> Digite o nome do Professor:</label>
+      <input type="text" id="nomeProfessor" placeholder="Digite o nome Professor"><br>
+
+      <label for="aluno_cod"> Digite o codigo de identificação do Aluno:</label>
+      <input type="text" id="aluno_cod" placeholder="codigo de identificação do Aluno"><br>
+
+      <label for="professor_cod"> Digite o nome do Professor:</label>
+      <input type="text" id="professor_cod" placeholder="codigo de identificação do Aluno"><br>
+
+
+      <button id="cadastrar">CADASTRAR SAÍDA</button>
+      <div id="res"></div>
+   
+  </div>
+  <footer>
+    <small> <img src="logo.jpg" alt="imagem"></small>
+  </footer>
+</body>
+
+</html>

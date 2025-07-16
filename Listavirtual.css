@@ -1,0 +1,102 @@
+
+body {
+    background-color: #333333;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+  }
+
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  button {
+    background-color: #880000;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+background-color: #313131; /* fundo escuro */
+padding: 20px;
+width: fit-content;
+margin: 20px auto;
+border-radius: 10px;
+text-align: left;
+}
+
+nav a {
+display: block;
+color: #00ff99; /* verde neon */
+font-weight: bold;
+text-decoration: none;
+margin-bottom: 10px;
+font-family: sans-serif;
+transition: color 0.2s ease;
+}
+
+nav a:hover {
+color: #ffffff; /* branco ao passar o mouse */
+}
+
+.container-aluno {
+background-color: #1f1f1f;
+border-radius: 15px;
+padding: 30px;
+max-width: 500px;
+margin: 30px auto;
+box-shadow: 0 0 20px rgba(0, 255, 150, 0.2);
+color: white;
+font-family: sans-serif;
+text-align: center;
+}
+
+.container-aluno h1,
+.container-aluno h2,
+.container-aluno h3 {
+color: white;
+}
+
+.container-aluno input[type="text"] {
+padding: 10px;
+border-radius: 20px;
+border: none;
+width: 60%;
+max-width: 250px;
+outline: none;
+}
+
+.container-aluno button {
+background-color: darkred;
+color: white;
+border: none;
+border-radius: 10px;
+padding: 10px 20px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.container-aluno ul {
+list-style-position: inside;
+padding-left: 0;
+margin-top: 10px;
+}
+
+.container-aluno li {
+margin: 4px 0;
+}

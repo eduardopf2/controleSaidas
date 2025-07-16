@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background:  #333333;
+    color: white;
+  }
+
+  footer{
+    text-align: center;
+    font-size: 10px;
+    margin:  200px; /* espaçamento  entre links */
+    
+
+  }
+
+
+
+
+  h1 {
+    font-size: 60px;
+    color: #f5f1f1;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size:45px;
+    color: #00ffaa;
+    text-align: center;
+    margin-top: 0;
+  }
+
+
+
+
+  .mensagem {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.6;
+    color: white;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* Espaço grande entre os menus */
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+
+  form{
+     
+      display: flex;
+      flex-direction: column;
+      width: 450px;
+      gap: 10px;
+      margin: 0 auto; /* <-- Centraliza horizontalmente */
+      align-items: center; /* <-- Centraliza conteúdo dentro do form */
+      padding: 2px;
+      border-radius: 25px;
+      background: rgb(88, 88, 88);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+  input{
+    text-align: center;
+    border-radius: 400px;
+    width: 400px;
+    height: 30px;
+
+  }
+  
+  button{
+    font-family:'Roboto';
+    font-size: 22px;
+    background-color: #333333;
+    color: rgb(233, 24, 24);
+    border-radius: 20px;
+  }
+  
+
+  
+
+  .item a {
+    display: block;
+    color: #00e89a;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .item a:hover {
+    text-decoration: underline;
+    color: #00ffb2;
+  }
+
+#iteminput{
+  text-align: center;
+}
+
+
+  /*nav doslinks */
+  nav {
+    margin-top: 20px; /* espaço do form e da nav */
+    margin:  25px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #00e89a; /* verde neon */
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin:  15px; /* espaçamento  entre links */
+    text-align: center;
+  }
+  
+  nav a:hover {
+    color: #00ffb2; /* mais claro no hover */
+  }
+  .container {
+    background: #bbb;
+    padding: 40px;
+    border-radius: 40px;
+    text-align: center; /* centraliza elementos em bloco */
+    max-width: 450px; /* opcional: limita largura */
+    max-height:1500px;
+    margin: 0 auto; /* centraliza container na tela */
+  }

@@ -1,0 +1,107 @@
+body {
+    background-color: #333333;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #313131; /* fundo escuro */
+    padding: 20px;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  nav a {
+    display: block;
+    color: #00ff99; /* verde neon */
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #ffffff; /* branco ao passar o mouse */
+  }
+  
+  .container-aluno {
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 30px auto;
+    box-shadow: 0 0 20px rgba(0, 255, 150, 0.2);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .container-aluno h1,
+  .container-aluno h2 {
+    color: white;
+  }
+  
+  ul#listaProfessor {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 20px;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  ul#listaProfessor li {
+    margin: 6px 0;
+    padding: 8px 12px;
+    background-color: #222222;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px #00ff99;
+  }
+  
+  /* Botões fixos Aceitar e Recusar */
+  button.aceitar {
+    background-color: #8B0000; /* vinho escuro */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 5px;
+    font-size: 16px;
+  }
+  
+  button.recusar {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px 5px;
+    font-size: 16px;
+  }
+  
+  button.aceitar:hover,
+  button.recusar:hover {
+    background-color: green;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 40px;
+  }
+  
+  footer img {
+    max-width: 150px;
+    border-radius: 10px;
+  }
+  
